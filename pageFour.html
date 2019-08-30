@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .list_style{
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <p style="background-color: #2f70b0" id="p1"></p>
+</div>
+<div id="imgList">
+
+    <!--<img src="https://hw.xesimg.com/ad/2019-08-01/afd65bd7061736ff9feacc6951783a93.jpg">-->
+</div>
+
+
+<script>
+    cars=["BMW","Volvo","Saab","Ford"];
+    html='';
+    for (var i=0;i<cars.length;i++){
+      html+= cars[i] + "<br>"
+    }
+
+//    document.getElementById("p1").innerHTML=html;
+    document.getElementsByTagName("p")[0].innerHTML = html;
+
+
+    imgs = ["https://hw.xesimg.com/ad/2019-08-01/afd65bd7061736ff9feacc6951783a93.jpg","https://r04.xesimg.com/web/2018/06/06/15282902905736.png","https://r01.xesimg.com/web/2018/07/17/15318127461826.png","https://hwt.xesimg.com/ad/2018-10-24/feda2ec1779d2e06850c1e2d3542100b.png"];
+
+    imgDo='';
+    for (var i=0;i<imgs.length;i++){
+       var img = document.createElement('img');
+       img.setAttribute('src',imgs[i]);
+       img.style.float='left';
+       img.className='list_style';
+       document.getElementById('imgList').appendChild(img);
+
+    }
+
+</script>
+</body>
+</html>

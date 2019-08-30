@@ -1,0 +1,506 @@
+@charset "utf-8";
+
+html{
+    font: 12px "宋体";
+}
+.top{
+    background-color: #f7f7f7;
+    height: 26px;
+    border-bottom: 1px solid #9d9d9d;
+}
+.top_page{
+    width: 970px;
+    height:26px;
+    margin: 0 auto;
+}
+.page_l{
+    line-height: 26px;
+}
+.page_r ul li{
+    float: left;
+    padding-left: 10px;
+    line-height: 26px;
+
+}
+.page_r ul li s {
+    height: 12px;
+    width: 12px;
+    background: url("../image/sprit.png");
+    display: inline-block;
+}
+
+a{
+    color: #000;
+}
+
+.logo{
+    width: 970px;
+    height: 98px;
+    margin: 0 auto;
+}
+.logo_l{
+    width: 100px;
+    height: 55px;
+    margin: 24px 0 19px 9px;
+    background:url("../image/logo.jpg");
+    
+}
+.logo_r{
+    width: 530px;
+    height: 42px;
+    /*border:  1px solid #c9c9c9;*/
+    margin: 30px 0 28px;
+}
+
+.logo_write{
+    width: 418px;
+    height: 28px;
+    border: 1px solid #c9c9c9;
+
+}
+.logo_search{
+    width: 99px;
+    height: 30px;
+    background-color: #2f70b0;
+    color: white;
+}
+.nav{
+    width: 970px;
+    margin: 0 auto;
+    height: 25px;
+    border-bottom: 2px solid #0266a3;
+}
+.nav ul li{
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.nav ul li a{
+    color: #0266a3;
+}
+
+.nav li:hover{
+    background-color:#0266a3;
+}
+
+.nav li:hover a{
+    color: white;
+}
+
+.banner{
+    width: 970px;
+    margin: 0 auto;
+    height: 210px;
+    margin-top: 10px;
+}
+.subNav{
+   width: 200px;
+    height: 210px;
+    float: left;
+    background-color: rgba(140, 186, 228, 0.47);
+
+}
+.subNav h2{
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    background-color:#0266a3 ;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.subNav ul li{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+
+
+}
+.subNav li a{
+    font-size: 14px;
+    color: #666666;
+    padding-left: 10px;
+}
+.subNav s{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    background: url("../image/shoping.png");
+}
+.ad{
+    width: 520px;
+    height: 210px;
+    float: left;
+    margin-left:10px ;
+    background-color: yellow;
+
+}
+.message{
+    width: 230px;
+    height: 210px;
+    float: right;
+    background-color: bisque;
+
+}
+.message_top{
+    height:95px;
+    background-color: rgba(65, 168, 255, 0.13);
+    border: 1px solid #dddddd;
+}
+.for_s{
+    color: #9d9d9d;
+    font-size: 12px;
+    height: 20px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+
+.message_top s{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    float: left;
+    background: url("../image/message.png");
+}
+
+.message_top li{
+
+    margin-left: 10px;
+}
+.message_bottom{
+    margin-top: 17px;
+    height:94px;
+    background-color: #f7f7f7;
+    border: 1px solid #dddddd;
+
+}
+
+
+.find_message{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 14px;
+
+}
+.phone{
+    text-align: center;
+    margin-top: 10px;
+}
+.phone s{
+    background: url("../image/phone.png");
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+.btn{
+    text-align: center;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+.material{
+    width: 950px;
+    height: 34px;
+    margin: 0 auto;
+    border-top: 2px solid #c3d7e4;
+    font-weight: bold;
+    padding-left: 20px;
+    line-height: 34px;
+    background-color:rgba(65, 168, 255, 0.13) ;
+    margin-top: 15px;
+}
+
+.matrial_detail{
+    width: 970px;
+    height: 330px;
+    margin: 0 auto;
+    margin-top:15px;
+}
+.good_list{
+    width: 730px;
+    height: 330px;
+
+    border: 1px solid #dddddd;
+}
+
+.matrial_news{
+    width: 225px;
+    height: 330px;
+
+    border: 1px solid #dddddd;
+}
+
+.good_list .goods_top {
+    width: 730px;
+    height: 160px;
+}
+.good_list .centerLine hr{
+
+    /*width: 730px;*/
+    /*height: 1px;*/
+    /*color: #9d9d9d;*/
+
+}
+
+.good_list .goods_bottom {
+
+    width: 730px;
+    height: 160px;
+}
+
+.good_list li {
+    width: 340px;
+    height: 150px;
+    margin-left: 15px;
+    margin-right: 7.5px;
+    float: left;
+    margin-top: 10px;
+}
+.good_list li .good_left .good_image{
+    width: 100px;
+    height: 130px;
+}
+
+
+ .good_image .img{
+
+   border: 1px solid #dddddd ;
+   height: 104px;
+    width: 104px;
+}
+ .good_image .img:hover{
+     border: 1px solid #2f70b0;
+ }
+.good_image .img s{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: url("../image/goods.jpg");
+    margin: 2px;
+
+}
+
+
+
+ .good_image input{
+
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 100px;
+    height: 25px;
+    background-color: #2f70b0 ;
+    color: white;
+
+
+}
+.good_list li a {
+
+    width: 100px;
+    height: 100px;
+}
+
+
+.good_list li .good_desprition{
+    width: 210px;
+    position: relative;
+    height: 160px;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 0px;
+}
+
+.good_list li .good_desprition .good_title{
+    color: #333333;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+}
+.good_list li .good_desprition .good_style{
+    color: rgba(194,99,19,0.93);
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.good_list li .good_desprition .good_price{
+    color: rgba(194,36,57,0.93);
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.good_list li .good_desprition .saleItem{
+    color: rgba(112, 112, 112, 0.87);
+
+
+    font-size: 12px;
+    padding-top: 15px;
+}
+.new_head{
+    border-bottom: 1px solid #dddddd;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 15px;
+
+}
+.matrial_news ul{
+    padding-top: 10px;
+    height: 290px;
+    scroll-padding: 10px;
+    overflow:auto
+}
+.matrial_news ul li{
+
+    padding-left: 10px;
+    height: 23px;
+
+
+}
+.matrial_news ul li s{
+    background: url("../image/dot.png");
+    width: 8px;
+    height: 8px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.children{
+    width: 970px;
+    height: 330px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+
+.children_lf{
+    width: 730px;
+    height: 330px;
+    border-left: 1px solid #B0C8DD;
+    border-right: 1px solid #B0C8DD;
+    border-bottom: 1px solid #B0C8DD;
+
+
+}
+.children .top_line{
+    height: 28px;
+    width: 732px;
+    border-bottom: 2px solid #0293E9;
+}
+
+.children .title{
+    width: 80px;
+    height: 28px;
+    background-color: #0293E9;
+    color: white;
+    font-size: 14px;
+    line-height: 28px;
+    border-top-left-radius: 5px;
+    padding-left: 10px;
+}
+.children .detail{
+    color: #0266a3;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 6px;
+
+}
+
+.children_lf .conetent{
+    width: 172px;
+    height: 320px;
+    margin: 5px;
+    /*background-color: #9d9d9d;*/
+}
+.children_lf .conetent s{
+    width: 172px;
+    height: 180px;
+    background: url("../image/seat.png");
+    display: inline-block;
+    
+}
+.children_lf .text{
+    text-align: center;
+    line-break: auto;
+    font-size: 14px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.children_lf .age{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.children_lf .samrkPrice{
+    text-align: center;
+    margin-top: 10px;
+}
+.children_lf .nowPrice{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.children .children_rt{
+    width: 220px;
+    height: 330px;
+
+}
+
+.children_rt .s1{
+    margin-top: 10px;
+    width: 220px;
+    height: 150px;
+    border: 1px solid #dddddd;
+    background: url("../image/upNews.png");
+    display: inline-block;
+ }
+
+.children_rt .s2{
+    margin-top: 5px;
+    width: 220px;
+    height: 160px;
+    border: 1px solid #dddddd;
+    background: url("../image/downNews.jpg");
+    display: inline-block;
+}
+
+.aboutLink{
+    width: 970px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-bottom: 2px solid #0293E9;
+
+}
+
+.aboutLink .link{
+    width: 70px;
+    color: #9d9d9d;
+    font-size: 12px;
+
+}
+.aboutLink .linkConetnt{
+    width: 890px;
+    color: #9d9d9d;
+    font-size: 12px;
+}
+
+.aboutUs{
+    width: 970px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-bottom: 2px solid #0293E9;
+    margin-bottom: 50px;
+}
+.aboutUs p{
+    text-align: center;
+}

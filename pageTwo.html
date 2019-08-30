@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pageTwo</ti
+        tle>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 引入 Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        main > :not(.scroll-top) {
+            max-width: 1024px;
+            margin: 0 auto;
+            box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+        }
+        .top{
+            background-color: blueviolet;
+            height: 90px;
+        }
+        body{
+            background-color: #eeeeee;
+        }
+        .about{
+            display: flex;
+            background-color: #aaa;
+            padding-bottom: 30px;
+            vertical-align: bottom;
+            align-items: flex-end;
+            padding-top: 150px;
+            align-content: space-around;
+
+        }
+        .line1{
+            background-color: white;
+            height: 5px;
+            width: 100px;
+        }
+        .lettText{
+            margin-bottom: 30px;
+        }
+        .about img{
+            display: inline-block;
+           vertical-align: middle;
+            border: 0px;
+      }
+        .grid img{
+            width: 100px;
+            height: auto;
+        }
+        .grid li{
+            display: inline-block;
+            margin: 20px;
+        }
+
+        hr{
+            background-color: darkblue;
+        }
+
+        .form-item {
+            position: relative;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #bbb;
+        }
+
+
+        .form-item label {
+
+            display: block;
+            z-index: 0;
+            position: relative;
+            top: 2em;
+            margin: 0;
+            font-size: .85em;
+            line-height: 1.764705882em;
+            vertical-align: middle;
+            vertical-align: baseline;
+            opacity: 0;
+            transition: top .3s ease,opacity .3s ease;
+
+        }
+        .form-item input, .form-item textarea {
+
+            z-index: 1;
+            position: relative;
+            padding-right: 0;
+            padding-left: 0;
+            border: 0;
+            border-radius: 0;
+            font-size: 1.5em;
+            background: 0 0;
+            box-shadow: none !important;
+            resize: none;
+            width: 100%;
+
+        }
+
+    </style>
+</head>
+<body>
+
+<header id="banner" class="navbar navbar-default navbar-fixed-top">
+    <nav class="top navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#example-navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">design and developer </a>
+        </div>
+        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a class="scrollable" href="#top">ABOUT</a></li>
+                    <li><a  href="#portfolio">PORTFOLI</a></li>
+                    <li><a  href="#contact">CONTACT</a></li>
+
+                </ul>
+
+
+        </div>
+
+    </nav>
+</header>
+<main >
+
+
+<div class="container mainflex">
+    <!--top-->
+    <div class="about">
+        <div>
+            <div>
+                <p class="lettText">
+                    Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.
+                    <span class="line1"></span><br>
+                    Web Developer - User Experience Designer - Graphic Artist
+                    A picture of Justin looking at San Francisco from across the Golden Gate Bridge.
+                </p>
+
+                <img src="http://qlip.avatpr.img" alt="a picture of justin looking at san granscio grom across the golden street"/>
+
+
+            </div>
+
+
+
+    </div>
+
+
+    </div>
+
+
+    <section id="portfolio">
+        <!--PORTFOLIO-->
+        <h2 class="text-center">PORTFOLIO</h2>
+        <hr>
+        <ul class="grid">
+            <li><img src="https://www.opto-e.cn/media/tc/samples/shafts.jpg"></li>
+            <li><img src="https://www.opto-e.cn/media/tc/samples/rotors.jpg"></li>
+
+            <li><img src="https://www.opto-e.cn/media/tc/samples/pipes.jpg"></li>
+
+            <li><img src="https://www.opto-e.cn/media/tcdp/sample_board.jpg"></li>
+            <li><img src="https://www.opto-e.cn/media/tc/samples/shafts.jpg"></li>
+
+
+        </ul>
+    </section>
+    <!--CONTACT ME-->
+
+    <section id="contact">
+        <h2 class="text-center">CONTACT ME</h2>
+        <hr>
+        <div>
+            <form id="contactForm" novalidate="">
+                <div class="form-item">
+                    <label for="name">Name</label>
+                    <input id="name" type="text" placeholder="Name">
+                </div>
+                <div class="form-item">
+                    <label for="email">Email Address</label>
+
+                    <input id="email" type="email" placeholder="Email Address">
+                </div>
+                <div class="form-item">
+                    <label for="phone">Phone Number</label>
+
+                    <input id="phone" type="tel" placeholder="Phone Number">
+                </div>
+                <div class="form-item">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" placeholder="Message" required=""></textarea>
+                </div>
+                <br>
+                <button class="btn btn-primary" type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <div>
+
+        <h3>About this page</h3>
+        <p>
+
+        </p>
+    </div>
+
+
+    <footer>
+        <p>112333</p>
+    </footer>
+</div>
+
+</main>
+
+</body>
+</html>
